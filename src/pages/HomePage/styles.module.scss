@@ -1,0 +1,1726 @@
+ 
+
+body{
+  margin: 0;
+  padding: 0;
+ 
+ 
+
+}
+
+
+
+
+
+
+
+
+ 
+.wordCarousel {
+  margin: 0 auto;
+  display: flex;
+  width: 786px;
+  color: white;
+  text-align: left;
+  justify-content: left;
+  font-size: 25px;
+  
+  span{
+    position: relative;
+    left: -71px;
+    animation: text2 12s 6;
+    font-family: 'Montserrat', sans-serif;
+    animation: flipSpan 14s 6 ;
+    
+     
+  }
+  div {
+     
+      overflow: hidden;
+      position: relative;
+      height: 65px;
+      padding-top: 10px;
+      margin-top: -10px;
+
+      ul{
+         
+        padding-left: 0;
+      }
+      li {
+        animation: text 12s 6;
+         
+        color:rgb(3, 202, 202);
+        font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          font-size: 25px;
+          padding: 0 10px;
+          height: 45px;
+          margin-bottom: 45px;
+          display: block;
+      }
+
+      
+  }
+}
+
+
+ 
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 14s cubic-bezier(0.23, 1, 0.32, 1.2) 6; }
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flipSpan {
+  0%{
+   
+    left: -2px;
+  }
+  16%{
+    left: -2px;
+  }
+  19%{
+    left: -62px;
+  }
+  33.5%{
+    left: -62px;
+  }
+  37.5% {
+    left: -71px;
+  }
+   
+  99%{
+    left: -71px;
+  }
+  99.9%{
+    left: -71px;
+  }
+  100%{
+    left: -2px;
+  }
+  
+}
+
+
+@keyframes text {
+  0%{
+    
+   
+    margin-right: 100px;
+    opacity: 0;
+  }
+  10%{
+    margin-right: 0px;
+    
+    opacity: 1;
+  }
+  
+  100%{
+    margin-right: 0px;
+    
+    opacity: 1;
+  }
+}
+
+@keyframes text2 {
+  0%{
+     
+   
+    margin-left: 100px;
+    opacity: 0;
+  }
+  
+  10%{
+   
+    margin-left: 0px;
+    
+    opacity: 1;
+  }
+  100%{
+    margin-left: 0px;
+    
+    opacity: 1;
+  }
+}
+
+@keyframes flip2 {
+  0% { margin-top: -180px; }
+  5% { margin-top: -90px;  }
+  50% { margin-top: -90px; }
+  55% { margin-top: 0px; }
+  99.99% { margin-top: 0px; }
+  100% { margin-top: -270px; left: 50px; }
+}
+
+@keyframes flip3 {
+  0% { margin-top: -270px; }
+  2.5% { margin-top: -180px; }
+  // 5% { margin-top: -180px; }
+  16.5% { margin-top: -180px; }
+  // 33% { margin-top: -180px; }
+  19% { margin-top: -90px; }
+  // 38% { margin-top: -90px; }
+  33% { margin-top: -90px; }
+  // 66% { margin-top: -90px; }
+  35.5% { margin-top: 0px; }
+  // 71% { margin-top: 0px; }
+  99.99% { margin-top: 0px; }
+  100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+  0% { margin-top: -360px; }
+  5% { margin-top: -270px; }
+  25% { margin-top: -270px; }
+  30% { margin-top: -180px; }
+  50% { margin-top: -180px; }
+  55% { margin-top: -90px; }
+  75% { margin-top: -90px; }
+  80% { margin-top: 0px; }
+  99.99% { margin-top: 0px; }
+  100% { margin-top: -270px; }
+}
+
+ 
+
+
+
+.tekst10 {
+  position: absolute;
+  top: 43%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+width: 100%;
+z-index: 9;
+ 
+
+ 
+}
+
+ 
+
+
+
+.Menu {
+  height: 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  width: 8rem;
+  align-items: center;
+  justify-content: center;
+  
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(252,252,252,1);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(252,252,252,1);
+  box-shadow: 0px 0px 1px 1px rgba(252,252,252,1);
+  background: rgba(3, 202, 202, 0.3);
+
+  pointer-events: auto;
+  z-index: 55!important;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+
+  position: absolute;
+  top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+ margin-top: 150px;
+z-index: 9;
+margin-bottom: 100px;
+   
+
+ 
+}
+
+.Menu:hover{
+  background: rgba(3, 202, 202, 0.5);
+  transition: 0.2s;
+}
+ .Menu{
+   a{
+   color: white;
+   text-decoration: none;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   display: block;
+   
+
+   p {
+     
+     font-size: 19px;
+     position: relative;
+     top: 8px;
+   }
+   }
+  }
+
+.divKlas{
+  justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    pointer-events: none;
+}
+.slide-images{
+  
+  display: flex;
+  height:100vh;
+  margin: 0 0 0 -202%;
+  position: relative;
+  animation: slide_animation;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+
+@keyframes zoom {
+  0%{transform: scale(1);}
+  70%{transform: scale(1.12);}
+  100%{transform: scale(1.12);}
+}
+ 
+@keyframes left {
+  0% {
+	  transform: translate3d(80px, 0px, 0px);
+	}
+	80% {
+	  transform: translate3d(0px, 0px, 0px);
+  }
+  99.99% {
+	  transform: translate3d(0px, 0px, 0px);
+  }
+  100% {
+	  transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes right {
+  0% {
+	  transform: translate3d(-160px, 0px, 0px);
+	}
+	80% {
+	  transform: translate3d(0px, 0px, 0px);
+  }
+  99.99% {
+	  transform: translate3d(0px, 0px, 0px);
+  }
+  100% {
+	  transform: translate3d(0px, 0px, 0px);
+  }
+  
+}
+
+
+  .eachSlide{
+    position: relative;
+  height: 100vh;
+  overflow: hidden;
+  
+  justify-content: center;
+  background-color: rgb(24, 23, 23);
+ z-index: 500;
+    }
+
+    .eachSlide:after{
+      content: '';
+      position: absolute;
+      z-index: 5;
+      left: 0;
+      bottom: 0;
+    }
+     
+    .eachSlide:before{
+      content: '';
+      width: 100vw;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-position: 50% 60%;
+          transform: translateZ(0) scale(1.0, 1.0);
+          background-image:url("../../images/lapizzaorg.png");
+          background-size: cover;
+          
+          animation: zoom 12s linear 10ms 6;
+          transition: all 0.2s ease-in-out;
+          z-index: 5;
+    }
+
+
+ 
+    .eachSlide1{
+     
+      background-image:url("../../images/LaPizza3.png");
+      
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-position: 50% 50%;
+       width: 110%;
+      height: 100vh;
+      background-size: cover;
+      opacity: 1;
+      transform: translate(0, 0px);
+      animation: left 12s linear 10ms 6;
+       position: relative;
+       left: -80px;
+      
+     
+     
+      }
+  
+      
+       
+      .test{
+        height: 100vh;
+        width: 100%;
+        
+        opacity: 1;
+        
+        z-index: -1;
+       
+        top: 0;
+        left: 0;
+      
+        
+        
+       
+      }
+      
+  
+      
+      .eachSlide2{
+       width: 120%;
+        background-image:url("../../images/LaPizza2.jpg");
+        position: absolute;
+      top: 0;
+      left: 0;
+      background-position: 50% 50%;
+        
+      height: 100vh;
+      background-size: cover;
+        
+        opacity: 1;
+        transform: translate(0, 0px);
+        animation: right 12s linear 10ms 6;
+         
+        
+       
+       
+        }
+    
+        
+         
+        .test{
+          
+          
+          opacity: 1;
+          
+          z-index: -1;
+         
+          top: 0;
+          left: 0;
+        
+          
+          
+         
+        }
+        
+
+
+
+        .container {
+          text-align: center;
+          justify-content: center;
+           
+        }
+
+        .container span {
+         
+        }
+
+        .text1{
+          font-size: 55px;
+          margin-right: 0px;
+          margin-bottom: 0px;
+          opacity: 1;
+          animation: text 12s linear 6;
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          
+        }
+
+        .text2{
+          
+          animation: text2 12s linear 6;
+          font-size: 55px;
+          margin-right: 0px;
+          margin-bottom: 0px;
+          opacity: 1;
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+           
+        }
+  
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+   
+}
+
+
+.parent {
+
+  pointer-events: auto;
+          z-index: 55!important;
+          position: absolute;
+          width: 80%;
+          max-width: 1000px;
+          top: 120px;
+          left: 50%;
+          transform: translate(-50%);
+          text-align: center;
+          top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  background:transparent;
+  border-top: 1px solid rgba(255,255,255,.6);
+    border-bottom: 1px solid rgba(255,255,255,.6);
+
+  img {
+    background-size: cover;
+    cursor: pointer;
+  }
+  li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+   
+    text-decoration: none;
+  }
+}
+ 
+
+.parent .UL li:nth-child(1) a{
+  color: white;
+  opacity: 1;
+}
+
+ 
+.UL{
+  list-style: none;
+
+
+  li:nth-child(4){
+    display: inline-block;
+    padding: 0px 30px;
+    height: 70px;
+    position: relative;
+   
+    a {
+      transition: all 0.3s ease 0s;
+       color: white;
+       opacity: 0.7;
+      display: block;
+      position: relative;
+      height: 70px;
+      line-height: 70px;
+      
+    }
+
+    
+    a:before{
+      opacity: 0;
+       pointer-events: auto;
+       z-index: 55!important;
+   width: 0;
+  height: 4px;
+  content: '';
+  position: absolute;
+  bottom: 0;
+ 
+  z-index: 2;
+  opacity: 1;
+  
+  border-radius: 2px;
+  background: rgba(3, 202, 202, 1);
+     }
+
+    a:hover{
+      opacity: 1;
+     
+    }
+
+    a:hover:before{
+      width: 100%;
+    }
+  }
+
+  li:nth-child(3){
+    display: inline-block;
+    padding: 0px 30px;
+    height: 70px;
+    position: relative;
+   
+    a {
+      transition: all 0.3s ease 0s;
+       color: white;
+       opacity: 0.7;
+      display: block;
+      position: relative;
+      height: 70px;
+      line-height: 70px;
+      
+    }
+
+    
+    a:before{
+      opacity: 0;
+       pointer-events: auto;
+       z-index: 55!important;
+   width: 0;
+  height: 4px;
+  content: '';
+  position: absolute;
+  bottom: 0;
+ 
+  z-index: 2;
+  opacity: 1;
+  
+  border-radius: 2px;
+  background: rgba(3, 202, 202, 1);
+     }
+
+    a:hover{
+      opacity: 1;
+     
+    }
+
+    a:hover:before{
+      width: 100%;
+    }
+  }
+    
+  li:nth-child(2){
+    display: inline-block;
+    padding: 0px 30px;
+    height: 70px;
+    position: relative;
+   
+    a {
+      transition: all 0.3s ease 0s;
+       color: white;
+       opacity: 0.7;
+      display: block;
+      position: relative;
+      height: 70px;
+      line-height: 70px;
+      
+    }
+
+    
+    a:before{
+      opacity: 0;
+       pointer-events: auto;
+       z-index: 55!important;
+   width: 0;
+  height: 4px;
+  content: '';
+  position: absolute;
+  bottom: 0;
+ 
+  z-index: 2;
+  opacity: 1;
+  
+  border-radius: 2px;
+  background: rgba(3, 202, 202, 1);
+     }
+
+    a:hover{
+      opacity: 1;
+     
+    }
+
+    a:hover:before{
+      width: 100%;
+    }
+  }
+  li:nth-child(1){
+    display: inline-block;
+    padding: 0px 30px;
+    height: 70px;
+    position: relative;
+   
+    a {
+      transition: all 0.3s ease 0s;
+       color: white;
+       opacity: 0.7;
+      display: block;
+      position: relative;
+      height: 70px;
+      line-height: 70px;
+      
+    }
+
+    
+    a:before{
+      pointer-events: auto;
+          z-index: 55!important;
+      width: 100%;
+    height: 4px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+     
+    z-index: 2;
+    opacity: 1;
+     
+    border-radius: 2px;
+    background: rgba(3, 202, 202, 1);
+     
+    }
+
+  
+    a:hover {
+       
+      opacity: 1;
+    }
+  }
+
+ 
+ 
+}
+.Anch {
+  span {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+  }
+}
+.cta {
+  box-shadow: 0px 0px 1px 1px #fcfcfc;
+  background: rgba(3, 202, 202, 0.918);
+  color: white;
+  text-decoration: none;
+  width: 120px;
+  height: 35px;
+  position: relative;
+  display: block;
+
+  p{
+    position: relative;
+    top: 7px;
+  }
+}
+
+.cta:hover{
+  background: rgba(3, 202, 202, 1);
+  transition: 0.2s;
+   
+}
+
+
+
+
+
+
+
+ 
+.ChapterTwo {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  margin-top: 100px;
+  text-align: center; 
+   
+   
+}
+
+.first {
+   margin-top: 150px;
+   margin-bottom: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  border: 1px solid rgba(105, 103, 103, 0.205);
+  padding: 30px 30px 10px 30px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  img{
+    height: 154px;
+    width: 225px;
+    float: left;
+     padding-bottom: 20px;
+     border-bottom: 1px solid rgba(105, 103, 103, 0.205);
+  }
+  .peperoni {
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  clear: left;
+  text-align: center;
+  width: 225px;
+  height: 45px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid rgba(105, 103, 103, 0.205);
+  font-size: 20px;
+}
+
+.Span2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: grey;
+  border-bottom: none;
+  text-align: left;
+  float: left;
+  clear: left;
+  padding-top: 10px;
+   padding-bottom: 10px;
+   width: 225px;
+ height: 100px;
+}
+
+.div3{
+  font-size: 14px;
+  justify-content: space-between;
+   
+  
+  .Span3{
+    width: 48%;
+    display: inline-block;
+     text-align: center;
+     padding: 10px;
+  background: rgba(3, 202, 202, 1);
+  float: left;
+  color: white;
+   
+  }
+  .Span4{
+    width: 48%;
+    display: inline-block;
+    float: right;
+     text-align: center;
+     padding: 10px;
+  background: rgba(3, 202, 202, 1);
+  
+  color: white;
+  }
+
+  
+}
+}
+
+.div4 {
+  font-size: 10px;
+  justify-content: space-between;
+  margin-top: 2px;
+  .Span5{
+    width: 48%;
+    display: inline-block;
+    float: right;
+     text-align: center;
+   
+  }
+
+  .Span6{
+    width: 48%;
+    display: inline-block;
+    float: left;
+     text-align: center;
+   
+  }
+}
+
+.second {
+  width: 50%;
+  height: 250px;
+  display: inline-block;
+}
+ 
+.second {
+  display: inline-block;
+  border: 1px solid rgba(105, 103, 103, 0.205);
+  padding: 30px 30px 10px 30px;
+   
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+.ZostoLa{
+  width: 100%;
+   
+  margin: 0 auto;
+  display: flex;
+  margin-top: 70px;
+
+}
+
+
+.ZsLa {
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center; 
+  justify-content: space-between;
+}
+
+.ZostoLaTekst {
+     
+          font-size: 55px;
+          margin: 0 auto;
+          
+          font-family: 'Montserrat', sans-serif;
+       
+}
+
+.Sostojki {
+  width: 80%;
+  margin-top: 80px;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  display: flex;
+   
+}
+
+
+.SostojkiDiv{
+   width: 30%;
+    
+   img {
+    width: 100%;
+    height: 266px;
+
+  }
+}
+
+.DostavaDiv{
+  width: 30%;
+   
+  img {
+   width: 100%;
+   height: 266px;
+  }
+}
+
+.FamilyDiv{
+  width: 30%;
+  
+
+  img {
+   width: 100%;
+   height: 266px;
+  }
+}
+
+.SostojkiDef{
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+}
+.SostojkiSpan {
+ 
+font-size: 16px;
+ 
+font-family: 'Montserrat', sans-serif;
+color: rgb(97, 96, 96);
+}
+
+.SostojkiNaslov {
+  
+  font-size: 22px;
+ 
+font-family: 'Montserrat', sans-serif;
+color: rgb(3, 202, 202);
+}
+
+.ZostoContainer {
+  justify-content: center;
+  height: 450px;
+  margin-left: 30px;
+  text-align: center;
+   
+}
+
+
+.Conta {
+  width: 100%;
+   
+ text-align: center;
+}
+
+.Contas {
+  width: 100%;
+   margin-bottom: 30px;
+  text-align: center;
+}
+
+ 
+.mushroom {
+  position: absolute;
+  right: 0;
+  margin-top: -100px;
+}
+
+
+.tomato {
+  position: absolute;
+  left: 0;
+  margin-top: -100px;
+}
+ 
+
+.garlic {
+  position: absolute;
+  left: 0;
+  margin-top: 450px;
+}
+
+.lettuce {
+  position: absolute;
+  right: 0;
+  margin-top: 450px;
+}
+ 
+
+ .Klienti {
+    
+  height: 360px;
+   width: 80%;
+   margin: 0 auto;
+  
+   text-align: center;
+   justify-content: center;
+   position: relative;
+ }
+
+ .Back {
+  background-image: url('../../images/quote.png');
+  height: 400px;
+  pointer-events: none;
+  background-size: cover;
+  background-position: 50%;
+  padding: 20px 0;
+  margin-top: 130px;
+  position: relative;
+ }
+
+ .Vpecatoci {
+    
+   font-family: 'Montserrat', sans-serif;
+   font-size: 55px;
+   position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+   
+ }
+
+ .LaPizzaFb{
+   height: 50px;
+   width: 50px;
+   margin: 0 auto;
+   display: flex;
+   position: absolute;
+   top: 28%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+  
+   a{
+     pointer-events: auto;
+     display: block;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+   }
+   
+   img {
+     height: 50px;
+     width: 50px;
+     position: absolute;
+   }
+ }
+
+
+ .Opis {
+   font-size: 22px;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(3, 202, 202);
+   position: absolute;
+   top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+ width: 100%;
+   font-style: italic;
+   
+ }
+
+
+ .Stars {
+   width: 150px;
+   height: 25px;
+   position: absolute;
+   top: 75%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+ 
+ }
+
+ .Nickname {
+  position: absolute;
+  top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+width: 100%;
+ 
+font-size: 22px;
+ }
+
+ .Footer {
+   background: grey;
+   width: 100%;
+   text-align:center;
+   background:rgb(49, 44, 43);
+   margin-top: 50px;
+   height: 530px;
+   position: relative;
+   padding: 40px 10px;
+   border-bottom: 1px solid rgb(71, 71, 71);
+ }
+
+
+ .GoogleMap{
+   width: 40%;
+   display: inline-block;
+   
+   height: 450px;
+   vertical-align: top;
+ }
+
+ .Kontakt {
+   width: 60%;
+  position: relative;
+   vertical-align: middle;
+   display: inline-block;
+   text-align: left;
+    height: 450px;
+
+   .Navigacija{
+    width: 50%;
+    display: inline-block;
+    padding: 0 0 0 60px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    p {
+     
+     padding: 30px 0 0 0;
+     font-size: 16px;
+
+     a{
+      color: rgb(3, 202, 202);
+      text-decoration: none;
+     }
+    }
+    h2{
+      font-size: 28px;
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+    }
+     
+   }
+
+
+   .Konts {
+     width: 50%;
+     display: inline-block;
+     right: 0;
+     padding: 0 0 0 40px;
+     top: 0;
+     position: absolute;
+
+     a {
+    color: white;
+     margin-top: 30px;
+    margin-right: 30px;
+      display: inline-block;
+      width: 50px;
+      
+       
+      
+    }
+
+    a:hover{
+      color:rgb(3, 202, 202);
+      transition: 0.2s;
+      cursor: pointer;
+    }
+     h2{
+      font-size: 28px;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+     }
+
+     p {
+      
+      
+      font-size: 16px;
+
+      
+  
+      
+     }
+   }
+ }
+
+
+ .Adresa {
+
+  #fill {
+    font-size: 16px;
+    color: rgb(3, 202, 202);
+    padding: 30px 0 0 0;
+  }
+   
+  #notfill{
+    color: white;
+  }
+ 
+ 
+   
+ }
+
+ .inline {
+   position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 990px;
+ }
+
+ 
+ .Rights {
+   width: 100%;
+   height: 40px;
+   line-height: 40px;
+   color: white;
+   text-align: center;
+   background: #312c2b;
+   font-size: 15px;
+    
+ }
+
+ .smNav {
+   width: 100%;
+   height: 50px;
+   cursor: pointer;
+   text-align: center;
+   background: rgb(3, 202, 202);
+   a{
+    color: white;
+    opacity: 1;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+   }
+   
+ }
+
+ .smNav1 {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  a{
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+     
+    display: block;
+    position: relative;
+  }
+  
+}
+
+.smNav2 {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  a{
+    color: white;
+    opacity: 0.7;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+  }
+  
+}
+
+.smNav1:hover {
+  background: rgb(3, 202, 202);
+    
+    a{
+      opacity: 1;
+    }
+}
+
+.smNav2:hover {
+  background: rgb(3, 202, 202);
+    
+    a{
+      opacity: 1;
+     
+    }
+}
+ 
+.smParent {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+ 
+
+@media only screen and (max-width: 1000px) {
+  .ZsLaImg {
+    display: none;
+  }
+
+  .ZostoContainer {
+    margin-left: 0;
+  }
+  
+  .Sostojki {
+    display: inherit;
+    
+  }
+  .sstj {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  .SostojkiDef {
+    
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+  .sstDef {
+    display: inline-block;
+    width: 50%;
+     
+  }
+  .SostojkiDiv {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px; 
+    
+    img {
+      width: 50%;
+    }
+  }
+
+  .DostavaDiv {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .FamilyDiv {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+
+    img {
+      width: 50%;
+    }
+
+  }
+
+  .lettuce {
+    margin-top: 360px;
+  }
+
+  .garlic {
+    margin-top: 320px;
+  }
+
+  
+}
+ @media only screen and (max-width: 890px) {
+  .parent{
+    display: none;
+  }
+
+
+ 
+ 
+    .eachSlide:before{
+      animation: none;
+    }
+    
+    .eachSlide1 {
+      animation: none;
+      left: 0;
+      width: 100%;
+    }
+
+    .eachSlide2 {
+      animation: none;
+      width: 200%;
+    }
+
+    .wordCarousel {
+      
+       span{
+       
+        animation: none; 
+        animation: none;
+         
+      }
+      div {
+     
+          li {
+            animation: none;
+            
+          }
+     }
+    }
+    .flip3{
+      animation: none;
+    }
+
+    .text1 {
+     display: none;
+    }
+
+    .text2 {
+     display: none;
+    }
+
+    
+    .wordCarousel{
+      display: none;
+    }
+
+    .tekst10{
+      width: 80%;
+      margin: 0 auto;
+      top: 33%;
+       
+    }
+
+    .text3{
+      animation: none;
+      font-size: 55px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      opacity: 1;
+      text-align: left;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+       
+       span {
+         color: rgb(3, 202, 202);
+         text-align: center;
+       }
+    }
+
+    
+}
+
+@media only screen and (min-width: 890px) {
+  .text3{
+    display: none;
+  }
+  }
+
+  @media only screen and (max-width: 800px) {
+   
+    .Vpecatoci {
+      font-size: 45px;
+    }
+
+    .Opis {
+      font-size: 19px;
+    }
+
+
+   }
+
+   @media only screen and (max-width: 780px) {
+   
+    .LaPizzaFb {
+      top: 25%;
+    }
+
+    .GoogleMap {
+      width: 90%;
+
+    }
+
+    .Kontakt {
+      width: 90%;
+      margin-top: 20px;
+      height: 350px;
+    }
+    
+    .Kontakt {
+      .Navigacija {
+        padding: 0 0 0 20px;
+      }
+
+      .Konts {
+        padding: 0 0 0 20px;
+      }
+    }
+
+    .Footer {
+      height: auto;
+    }
+
+   }
+
+    
+
+@media only screen and (max-width: 560px) {
+
+
+  .Back {
+    margin-top: 80px;
+  }
+
+  .text3{
+    font-size: 35px;
+  }
+  
+  .ZostoContainer {
+    height: auto;
+  }
+  .mushroom, .tomato, .garlic, .lettuce {
+    display: none;
+  }
+
+  .ZostoLaTekst{
+    font-size: 30px;
+  }
+
+  .SostojkiSpan {
+    font-size: 14px;
+  }
+
+  .ZsLaImg {
+    display: none;
+  }
+  
+  .Sostojki {
+    display: inherit;
+    
+  }
+  .sstj {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  .SostojkiDef {
+    
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+  .sstDef {
+    display: inline-block;
+    width: 100%;
+     
+  }
+  .SostojkiDiv {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px; 
+    
+    img {
+      width: 100%;
+    }
+  }
+
+  .DostavaDiv {
+    width: 100%;
+  display: inline-block;
+  margin-bottom: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .FamilyDiv {
+    width: 100%;
+  display: inline-block;
+  margin-bottom: 30px;
+
+    img {
+      width: 100%;
+    }
+
+  }
+  }
+
+  @media only screen and (max-width: 500px) { 
+
+   .Kontakt {
+     height: 530px;
+
+     .Navigacija {
+       width: 100%;
+       position: relative;
+     }
+
+     .Konts {
+      width: 100%;
+      position: relative;
+      margin-top: 30px;
+     }
+   }
+  }
+  @media only screen and (max-width: 450px) {
+    .Vpecatoci{
+      font-size: 35px;
+    }
+
+    .Opis {
+      font-size: 16px;
+      width: 80%;
+    }
+
+    .LaPizzaFb {
+
+      height: 40px;
+      width: 40px;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      a{
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .Nickname {
+      font-size: 19px;
+    }
+
+    .Stars {
+      width: 130px;
+      height: 20px;
+    }
+    }
+
+    @media only screen and (max-width: 430px) {
+
+      .LaPizzaFb {
+        top: 23%;
+      }
+     
+      .Rights {
+        font-size: 12px;
+      }
+    }
+
+    @media only screen and (max-width: 335px) {
+
+
+      .Opis {
+        width: 70%;
+      }
+      .Vpecatoci {
+        font-size: 25px;
+      }
+
+      .Nickname {
+        top: 90%;
+      }
+
+      .Stars {
+        top: 82%;
+      }
+
+      .LaPizzaFb {
+        top: 19%;
+        height: 30px;
+        width: 30px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+  
+        a{
+          width: 30px;
+          height: 30px;
+        }
+      }
+     
+    }
+ 
+  @media only screen and (max-width: 350px) {
+    .text3{
+      font-size: 28px;
+    }
+    }
+
+   
+ 
+.Anch {
+  span {
+   
+      height: 1px;
+      width: 1px;
+      position: absolute;
+      overflow: hidden;
+      top: -10px;
+  
+  }
+}

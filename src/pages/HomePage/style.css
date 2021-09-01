@@ -1,0 +1,144 @@
+ 
+
+.style {
+    color: red;
+}
+.carousel-prev:before {
+    background-image: url(../../images/linija1.png);
+    pointer-events: auto;
+}
+  button.carousel-arrow.block.carousel-prev::before{
+    background-image: url(../../images/linija1.png);
+    width: 30px;
+    height: 25px;
+    position: relative;
+    pointer-events: auto;
+    
+  }
+  
+  
+  button.carousel-arrow.block.carousel-prev{
+      height: 35px;
+      width: 35px;
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      border-radius: 50%;
+      background: rgba(3, 3, 3, 0.6);
+      pointer-events: auto;
+      z-index: 55!important;
+    }
+
+    button.carousel-arrow.block.carousel-prev:hover{
+        background: black;
+    }
+ 
+
+    .carousel-next:before {
+        background-image: url(../../images/linija2.png);
+        pointer-events: auto;
+    }
+      button.carousel-arrow.block.carousel-next::before{
+        background-image: url(../../images/linija2.png);
+        width: 30px;
+        height: 25px;
+        position: relative;
+        pointer-events: auto;
+        
+      }
+      
+      
+      button.carousel-arrow.block.carousel-next{
+          height: 35px;
+          width: 35px;
+          position: absolute;
+          top: 50%;
+          right: 20px;
+          border-radius: 50%;
+          background: rgba(3, 3, 3, 0.6);
+          pointer-events: auto;
+          z-index: 55!important;
+        }
+    
+        button.carousel-arrow.block.carousel-next:hover{
+            background: black;
+        }
+ 
+ 
+.carousel-item:nth-child(1){
+    z-index: 5!important;
+     
+}
+
+.carousel-item:nth-child(2){
+        
+    z-index: 2!important;
+    overflow: hidden;
+}
+
+.carousel-item:nth-child(3){
+        overflow: hidden;
+    z-index: 2!important;
+    
+}
+
+ul.carousel-dots .carousel-dots-active.carousel-dot-1 button::before{
+     
+    
+}
+
+ul.carousel-dots .carousel-dot-1 button::before{
+    
+}
+
+ul.carousel-dots .carousel-dot-2 button::before{
+    
+}
+
+ul.carousel-dots .carousel-dot-3 button::before{
+    
+}
+
+ul.carousel-dots .carousel-dots-active.carousel-dot-1 button::before{
+    
+    opacity: 1;
+}
+
+ul.carousel-dots .carousel-dots-active.carousel-dot-2 button::before{
+    
+    opacity: 1;
+}
+
+ul.carousel-dots .carousel-dots-active.carousel-dot-3 button::before{
+    
+    opacity: 1;
+}
+
+ul.carousel-dots {
+    margin-top: 0;
+    pointer-events: auto;
+    top: -20px;
+    position: relative;
+}
+
+#reveal2 {
+    opacity: 0;
+    -webkit-transform: rotate(40deg) scale(0.5);
+       -moz-transform: rotate(40deg) scale(0.5);
+        -ms-transform: rotate(40deg) scale(0.5);
+         -o-transform: rotate(40deg) scale(0.5);
+            transform: rotate(40deg) scale(0.5);
+    -webkit-transition: all 0.8s ease-in-out;
+       -moz-transition: all 0.8s ease-in-out;
+        -ms-transition: all 0.8s ease-in-out;
+         -o-transition: all 0.8s ease-in-out;
+            transition: all 0.8s ease-in-out;
+  }
+  #reveal2.visible {
+    opacity: 1;
+    -webkit-transform: none;
+       -moz-transform: none;
+        -ms-transform: none;
+         -o-transform: none;
+            transform: none;
+  }
